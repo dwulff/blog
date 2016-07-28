@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Testing data and metadata backends with ClawIO</title>
+      <link>http://hugo.labkode.com/talk/testing_data_and_metadata_backends/</link>
+      <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/testing_data_and_metadata_backends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CERNBox &#43; EOS: end-user storage for science</title>
       <link>http://hugo.labkode.com/publication/cernbox-plus-eos/</link>
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
@@ -78,6 +87,15 @@ Sync is in [brackets] because Synchronisation is optional and can be disabled an
     </item>
     
     <item>
+      <title>From oc_filecache to an scalable and flexible OwnCloud namespace</title>
+      <link>http://hugo.labkode.com/talk/from_oc_filecache/</link>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/from_oc_filecache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CERNBox</title>
       <link>http://hugo.labkode.com/project/cernbox/</link>
       <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
@@ -118,13 +136,21 @@ based on OwnCloud (&lt;a href=&#34;http://owncloud.com&#34;&gt;http://owncloud.c
     </item>
     
     <item>
-      <title>CERNBox</title>
-      <link>http://hugo.labkode.com/talks/cernbox-to-share-or-not-to-share/</link>
-      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <title>CERNBox: To Share or Not To Share</title>
+      <link>http://hugo.labkode.com/talk/cernbox-to-share-or-not-to-share/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://hugo.labkode.com/talks/cernbox-to-share-or-not-to-share/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;
-</description>
+      <guid>http://hugo.labkode.com/talk/cernbox-to-share-or-not-to-share/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is CERNBox?</title>
+      <link>http://hugo.labkode.com/talk/cernbox-ittf/</link>
+      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/cernbox-ittf/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -161,6 +187,15 @@ Furthermore, the system can handle the upload of different types of documents an
     </item>
     
     <item>
+      <title>CERNBox: Site Report</title>
+      <link>http://hugo.labkode.com/talk/cernbox-site-report/</link>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/cernbox-site-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>about</title>
       <link>http://hugo.labkode.com/home/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -170,7 +205,13 @@ Furthermore, the system can handle the upload of different types of documents an
 
 &lt;h1 id=&#34;biography:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Biography&lt;/h1&gt;
 
-&lt;p&gt;Hugo Gonzalez Labrador is a DevOps Engineer at CERN. His work involved developing the CERNBox platform and perform operations to ensure the realiability of the CERNBox and supporting services.&lt;/p&gt;
+&lt;p&gt;Hugo González Labrador is a student in the MEng of Computer Engineering at the University of Vigo in Spain.
+His work at CERN inside the IT Storage group involved the design and development of the
+CERNBox project, a petabyte-scale cloud synchronisation and sharing platform.
+He presented his work in various international conferences and collaborated on different scientific publications.
+He has for worked for the University of Vigo in two research projects - ClawIO (a cloud synchronisation benchmarking framework)
+and PentaS (a coordinated space engineering project under HumSAT 2.0).
+He will join CERN again to continue the development of the CERNBox project.&lt;/p&gt;
 </description>
     </item>
     

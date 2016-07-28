@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://hugo.labkode.com/talk/testing_data_and_metadata_backends/</loc>
+    <lastmod>2016-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hugo.labkode.com/publication/cernbox-plus-eos/</loc>
     <lastmod>2015-12-23T00:00:00+00:00</lastmod>
   </url>
@@ -28,18 +33,33 @@
   </url>
   
   <url>
+    <loc>http://hugo.labkode.com/talk/from_oc_filecache/</loc>
+    <lastmod>2015-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hugo.labkode.com/project/cernbox/</loc>
     <lastmod>2015-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.labkode.com/talks/cernbox-to-share-or-not-to-share/</loc>
-    <lastmod>2015-08-21T00:00:00+00:00</lastmod>
+    <loc>http://hugo.labkode.com/talk/cernbox-to-share-or-not-to-share/</loc>
+    <lastmod>2015-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/talk/cernbox-ittf/</loc>
+    <lastmod>2015-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://hugo.labkode.com/project/lia2cms/</loc>
     <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/talk/cernbox-site-report/</loc>
+    <lastmod>2014-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>

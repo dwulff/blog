@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Hugo González Labrador</title>
+    <link>http://hugo.labkode.com/talk/</link>
+    <description>Recent content in Talks on Hugo González Labrador</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Hugo González Labrador</copyright>
+    <lastBuildDate>Mon, 18 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://hugo.labkode.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testing data and metadata backends with ClawIO</title>
+      <link>http://hugo.labkode.com/talk/testing_data_and_metadata_backends/</link>
+      <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/testing_data_and_metadata_backends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From oc_filecache to an scalable and flexible OwnCloud namespace</title>
+      <link>http://hugo.labkode.com/talk/from_oc_filecache/</link>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/from_oc_filecache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CERNBox: To Share or Not To Share</title>
+      <link>http://hugo.labkode.com/talk/cernbox-to-share-or-not-to-share/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/cernbox-to-share-or-not-to-share/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is CERNBox?</title>
+      <link>http://hugo.labkode.com/talk/cernbox-ittf/</link>
+      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/cernbox-ittf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CERNBox: Site Report</title>
+      <link>http://hugo.labkode.com/talk/cernbox-site-report/</link>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talk/cernbox-site-report/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -20,9 +20,9 @@
 
 
     <link rel="shortcut icon" href="http://hugo.labkode.com/img/favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="http://hugo.labkode.com/publication/cernbox-plus-eos/">
+    <link rel="canonical" href="http://hugo.labkode.com/talk/testing_data_and_metadata_backends/">
 
-    <title>CERNBox &#43; EOS: end-user storage for science | Hugo González Labrador</title>
+    <title>Testing data and metadata backends with ClawIO | Hugo González Labrador</title>
 
 </head>
 <body id="top">
@@ -72,10 +72,10 @@
 
     <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
         <div class="pub-title">
-            <h1 itemprop="name">CERNBox &#43; EOS: end-user storage for science</h1>
+            <h1 itemprop="name">Testing data and metadata backends with ClawIO</h1>
             <span class="pub-authors" itemprop="author">
                 
-                L. Mascetti, H.Gonzalez Labrador, M. Lamanna, JT. Mościcki, AJ. Peters
+                H.G Labrador, A. Formella
                 
             </span>
             <span class="pull-right">
@@ -83,27 +83,27 @@
 <div class="share-box">
     <ul class="share">
         <li>
-            <a class="facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fhugo.labkode.com%2fpublication%2fcernbox-plus-eos%2f" target="_blank">
+            <a class="facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fhugo.labkode.com%2ftalk%2ftesting_data_and_metadata_backends%2f" target="_blank">
                 <i class="fa fa-facebook"></i>
             </a>
         </li>
         <li>
-            <a class="twitter" href="https://twitter.com/intent/tweet?text=CERNBox%20%2b%20EOS%3a%20end-user%20storage%20for%20science&amp;url=http%3a%2f%2fhugo.labkode.com%2fpublication%2fcernbox-plus-eos%2f" target="_blank">
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=Testing%20data%20and%20metadata%20backends%20with%20ClawIO&amp;url=http%3a%2f%2fhugo.labkode.com%2ftalk%2ftesting_data_and_metadata_backends%2f" target="_blank">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
         <li>
-            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fhugo.labkode.com%2fpublication%2fcernbox-plus-eos%2f&amp;title=CERNBox%20%2b%20EOS%3a%20end-user%20storage%20for%20science" target="_blank">
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fhugo.labkode.com%2ftalk%2ftesting_data_and_metadata_backends%2f&amp;title=Testing%20data%20and%20metadata%20backends%20with%20ClawIO" target="_blank">
                 <i class="fa fa-linkedin"></i>
             </a>
         </li>
         <li>
-            <a class="weibo" href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fhugo.labkode.com%2fpublication%2fcernbox-plus-eos%2f&amp;title=CERNBox%20%2b%20EOS%3a%20end-user%20storage%20for%20science" target="_blank">
+            <a class="weibo" href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fhugo.labkode.com%2ftalk%2ftesting_data_and_metadata_backends%2f&amp;title=Testing%20data%20and%20metadata%20backends%20with%20ClawIO" target="_blank">
                 <i class="fa fa-weibo"></i>
             </a>
         </li>
         <li>
-            <a class="email" href="mailto:?subject=CERNBox%20%2b%20EOS%3a%20end-user%20storage%20for%20science&amp;body=http%3a%2f%2fhugo.labkode.com%2fpublication%2fcernbox-plus-eos%2f">
+            <a class="email" href="mailto:?subject=Testing%20data%20and%20metadata%20backends%20with%20ClawIO&amp;body=http%3a%2f%2fhugo.labkode.com%2ftalk%2ftesting_data_and_metadata_backends%2f">
                 <i class="fa fa-envelope"></i>
             </a>
         </li>
@@ -116,15 +116,24 @@
 
         
 
-        <h3>Abstract</h3>
-        <p class="pub-abstract" itemprop="text">CERNBox is a cloud synchronisation service for end-users: it allows syncing and sharing files on all major mobile and desktop platforms (Linux, Windows, MacOSX, Android, iOS) aiming to provide offline availability to any data stored in the CERN EOS infrastructure. The successful beta phase of the service confirmed the high demand in the community for an easily accessible cloud storage solution such as CERNBox. Integration of the CERNBox service with the EOS storage back-end is the next step towards providing “sync and share” capabilities for scientific and engineering use-cases. In this report we will present lessons learnt in offering the CERNBox service, key technical aspects of CERNBox/EOS integration and new, emerging usage possibilities. The latter includes the ongoing integration of “sync and share” capabilities with the LHC data analysis tools and transfer services.</p>
+	
+        <h3>Summary</h3>
+	<p class="pub-abstract" itemprop="text">Open Source Cloud Sync and Share software provides synchronisation layer on top of a variety of backend storages such as local filesystems and object storage. In case of some software stacks, such as ownCloud, a SQL database is used to support the synchronisation requirements.
+We tested how different technology stacks impact the ownCloud HTTP-based Synchronisation Protocol. Efficiency and scalability analysis was performed based on benchmarking results. The results have been produced using the ClawIO framework prototype.
+
+ClawIO  is a Cloud Synchronisation Benchmarking Framework. The software provides a base
+architecture to stress different storage solutions against different cloud synchronisation protocols.
+Such architecture is based on the IETF Storage Sync draft specification and CERN EOS.
+The synchronisation logic is divided into control and data servers. 
+This separation is done by the use of highly-decoupled micro services connected to each other using high performance communication protocols such a gRPC and HTTP/2.</p>
+	
 
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-                    <div class="col-xs-12 col-sm-9">J.Phys.Conf.Ser. 664 (2015) no.6, 062037</div>
+                    <div class="col-xs-12 col-sm-3 pub-row-heading">Conference</div>
+                    <div class="col-xs-12 col-sm-9">CS3: Cloud Storage Services for Novel Applications and Workflows, Zürich, Switzerland</div>
                 </div>
             </div>
             <div class="col-sm-1"></div>
@@ -136,7 +145,7 @@
             <div class="col-sm-10">
                 <div class="row">
                     <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-                    <div class="col-xs-12 col-sm-9" itemprop="datePublished">December, 2015</div>
+                    <div class="col-xs-12 col-sm-9" itemprop="datePublished">January, 2016</div>
                 </div>
             </div>
             <div class="col-sm-1"></div>
@@ -155,11 +164,9 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://inspirehep.net/record/1413958/files/jpconf15_664_062037.pdf">PDF</a>
-
-
-
-
+<a class="btn btn-primary btn-outline" href="https://zenodo.org/record/44783#.VxaJypN95sM">PDF</a>
+<a class="btn btn-primary btn-outline" href="http://www.slideshare.net/HugoGonzzLabrador/testing-data-and-metadata-backends-with-clawio">Slides</a>
+<a class="btn btn-primary btn-outline" href="http://www.video.ethz.ch/events/2016/cs3/day1/07b554d8-d188-451a-a95d-f0de938aa8b0.html">Video</a>
 <a class="btn btn-primary btn-outline" href="http://hugo.labkode.com/project/cernbox/">Project</a>
 
 
@@ -181,11 +188,9 @@
     <nav>
     <ul class="pager">
         
-        <li class="previous"><a href="http://hugo.labkode.com/publication/disk-storage-cern/"><span aria-hidden="true">&larr;</span> Disk storage at CERN</a></li>
+        <li class="previous"><a href="http://hugo.labkode.com/talk/from_oc_filecache/"><span aria-hidden="true">&larr;</span> From oc_filecache to an scalable and flexible OwnCloud namespace</a></li>
         
 
-        
-        <li class="next"><a href="http://hugo.labkode.com/publication/cernbox-petabyte-scale/">CERNBox: Petabyte-Scale Cloud Synchronisation and Sharing Platform <span aria-hidden="true">&rarr;</span></a></li>
         
     </ul>
 </nav>
@@ -218,11 +223,6 @@
         <script>hljs.initHighlightingOnLoad();</script>
 
         
-        
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-        </script>
-        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
         
 
     </body>
