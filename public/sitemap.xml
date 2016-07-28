@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://hugo.labkode.com/</loc>
+    <lastmod>2016-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/publication/cernbox-petabyte-scale/</loc>
+    <lastmod>2016-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/publication/cernbox-plus-eos/</loc>
+    <lastmod>2015-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/publication/disk-storage-cern/</loc>
+    <lastmod>2015-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/project/clawio/</loc>
+    <lastmod>2015-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/project/cernbox/</loc>
+    <lastmod>2015-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/talks/cernbox-to-share-or-not-to-share/</loc>
+    <lastmod>2015-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/project/lia2cms/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/home/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://hugo.labkode.com/home/teaching/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

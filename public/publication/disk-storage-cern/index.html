@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.16-DEV" />
+    <meta name="author" content="Hugo González Labrador (@labkode)">
+    <meta name="description" content="DevOps Engineer">
+
+    <link rel="stylesheet" href="http://hugo.labkode.com/css/highlight.min.css">
+    <link rel="stylesheet" href="http://hugo.labkode.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://hugo.labkode.com/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://hugo.labkode.com/css/academicons.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+    <link rel="stylesheet" href="http://hugo.labkode.com/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="http://hugo.labkode.com/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="http://hugo.labkode.com/publication/disk-storage-cern/">
+
+    <title>Disk storage at CERN | Hugo González Labrador</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://hugo.labkode.com/">Hugo González Labrador</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="http://hugo.labkode.com/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="http://hugo.labkode.com/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="http://hugo.labkode.com/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="http://hugo.labkode.com/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="http://hugo.labkode.com/#teaching">Teaching</a></li>
+                
+                <li class="nav-item"><a href="http://hugo.labkode.com/#talks">Talks</a></li>
+                
+                <li class="nav-item"><a href="http://hugo.labkode.com/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="pub-title">
+            <h1 itemprop="name">Disk storage at CERN</h1>
+            <span class="pub-authors" itemprop="author">
+                
+                L. Mascetti, E. Cano, B. Chan, X. Espinal, A. Fiorot, H.Gonz Labrador, J. Iven, M. Lamanna, G.Lo Presti, JT. Mościcki et al
+                
+            </span>
+            <span class="pull-right">
+                
+<div class="share-box">
+    <ul class="share">
+        <li>
+            <a class="facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fhugo.labkode.com%2fpublication%2fdisk-storage-cern%2f" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=Disk%20storage%20at%20CERN&amp;url=http%3a%2f%2fhugo.labkode.com%2fpublication%2fdisk-storage-cern%2f" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fhugo.labkode.com%2fpublication%2fdisk-storage-cern%2f&amp;title=Disk%20storage%20at%20CERN" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </li>
+        <li>
+            <a class="weibo" href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fhugo.labkode.com%2fpublication%2fdisk-storage-cern%2f&amp;title=Disk%20storage%20at%20CERN" target="_blank">
+                <i class="fa fa-weibo"></i>
+            </a>
+        </li>
+        <li>
+            <a class="email" href="mailto:?subject=Disk%20storage%20at%20CERN&amp;body=http%3a%2f%2fhugo.labkode.com%2fpublication%2fdisk-storage-cern%2f">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+            </span>
+        </div>
+
+        
+
+        <h3>Abstract</h3>
+        <p class="pub-abstract" itemprop="text">CERN IT DSS operates the main storage resources for data taking and physics analysis mainly via three system: AFS, CASTOR and EOS. The total usable space available on disk for users is about 100 PB (with relative ratios 1:20:120). EOS actively uses the two CERN Tier0 centres (Meyrin and Wigner) with 50:50 ratio. IT DSS also provide sizeable on-demand resources for IT services most notably OpenStack and NFS-based clients: this is provided by a Ceph infrastructure (3 PB) and few proprietary servers (NetApp). We will describe our operational experience and recent changes to these systems with special emphasis to the present usages for LHC data taking, the convergence to commodity hardware (nodes with 200-TB each with optional SSD) shared across all services. We also describe our experience in coupling commodity and home-grown solution (e.g. CERNBox integration in EOS, Ceph disk pools for AFS, CASTOR and NFS) and finally the future evolution of these systems for WLCG and beyond</p>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+                    <div class="col-xs-12 col-sm-9">J.Phys.Conf.Ser. 664 (2015) no.4, 042035</div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+                    <div class="col-xs-12 col-sm-9" itemprop="datePublished">December, 2015</div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row" style="padding-top: 10px">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+                    <div class="col-xs-12 col-sm-9">
+
+                        
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://inspirehep.net/record/1413866/files/jpconf15_664_042035.pdf">PDF</a>
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://hugo.labkode.com/project/cernbox/">Project</a>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="space-below"></div>
+
+        <div class="article-style"></div>
+
+    </div>
+
+    <nav>
+    <ul class="pager">
+        
+
+        
+        <li class="next"><a href="http://hugo.labkode.com/publication/cernbox-plus-eos/">CERNBox &#43; EOS: end-user storage for science <span aria-hidden="true">&rarr;</span></a></li>
+        
+    </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+	&copy; 2016 Hugo González Labrador 
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="http://hugo.labkode.com/js/jquery-1.12.3.min.js"></script>
+        <script src="http://hugo.labkode.com/js/bootstrap.min.js"></script>
+        <script src="http://hugo.labkode.com/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        </script>
+        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        
+
+    </body>
+</html>
+

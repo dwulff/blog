@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Hugo González Labrador</title>
+    <link>http://hugo.labkode.com/project/</link>
+    <description>Recent content in Projects on Hugo González Labrador</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Hugo González Labrador</copyright>
+    <lastBuildDate>Mon, 21 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://hugo.labkode.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ClawIO</title>
+      <link>http://hugo.labkode.com/project/clawio/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/project/clawio/</guid>
+      <description>
+
+&lt;p&gt;ClawIO is a Cloud [Sync] Storage Gateway solution that provides excellent performance, reliability and scalability.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Cloud&lt;/strong&gt;: ClawIO core is a dependency-free autonomous server like Nginx or Apache that exposes a set of APIs that clients can consume
+in a client-server architecture.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;[Sync]&lt;/strong&gt;: ClawIO allows you to synchronize your data with existing synchronization software (currently only ownCloud is supported).
+Sync is in [brackets] because Synchronisation is optional and can be disabled and enabled as you wish.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Storage&lt;/strong&gt;: ClawIO interacts with existing storage solutions from local filesystems to object storages.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Gateway&lt;/strong&gt;: ClawIO acts as a gateway to existing storage solutions providing a simple and effective HTTP API.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The project consists of several components:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/clawio/clawiod/releases/&#34;&gt;ClawIO Server Daemon (clawiod)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/clawio/webui/releases/&#34;&gt;ClawIO Web User Interface (webui)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/clawio/clawioctl/releases/&#34;&gt;ClawIO Terminal Controller (clawioctl)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;license:544d02f93bd32bbfd3bd811433b3ecd2&#34;&gt;LICENSE&lt;/h2&gt;
+
+&lt;p&gt;ClawIO components are publicly available under &lt;a href=&#34;https://www.gnu.org/licenses/agpl-3.0.en.html&#34;&gt;AGPLv3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;documentation:544d02f93bd32bbfd3bd811433b3ecd2&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;The official documentation of the project can be obtained at &lt;a href=&#34;https://clawio.gitbooks.io/clawio-manual/content/&#34;&gt;https://clawio.gitbooks.io/clawio-manual/content/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CERNBox</title>
+      <link>http://hugo.labkode.com/project/cernbox/</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/project/cernbox/</guid>
+      <description>
+
+&lt;p&gt;CERNBox is the biggest project I have being involved in. I joined this project when I was a Technical Student at CERN.
+My bachelor thesis is about CERNBox and can be checked at &lt;a href=&#34;https://zenodo.org/record/58838#.V5iNnhV95sO&#34;&gt;https://zenodo.org/record/58838#.V5iNnhV95sO&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The official description of the project is the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CERNBox provides synchronisation capabilities between a user machine
+(desktop PC, smart phone or tablet) and a central repository,
+managed by CERN IT department.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Currently it provides a functionality analogous to DropboxTM or similar system.
+The data are stored on EOS, the disk-storage provided by the IT department for
+LHC computing. This allows users to access data via lxplus/lxbatch and, via
+synchronisation, from their mobile devices. The sync and web access layers are
+based on OwnCloud (&lt;a href=&#34;http://owncloud.com&#34;&gt;http://owncloud.com&lt;/a&gt; (link is external)).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;technologies-involved:b3828869e737d507af35796f0b873aa7&#34;&gt;Technologies involved&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ownCloud&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;HTML5&lt;/li&gt;
+&lt;li&gt;CSS3&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Apache&lt;/li&gt;
+&lt;li&gt;NGINX&lt;/li&gt;
+&lt;li&gt;LDAP&lt;/li&gt;
+&lt;li&gt;EOS (CERN disk store for LHC)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LIA2 CMS</title>
+      <link>http://hugo.labkode.com/project/lia2cms/</link>
+      <pubDate>Fri, 21 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/project/lia2cms/</guid>
+      <description>
+
+&lt;p&gt;LIA2 CMS is my first project as a web developer.  The LIA2 research group at the University of Vigo gave me the opportunity to work during the summer of 2014. The goal of this project was to create a custom CMS system to increase the productivity when handling all the aspects of a research group.&lt;/p&gt;
+
+&lt;h2 id=&#34;before:adaa33669cdee97fbc6b34506103429c&#34;&gt;Before&lt;/h2&gt;
+
+&lt;p&gt;The previous system was built using static HTML pages that were being updated manually when a new publication appeared or a new financed project was granted. This lead to a lot of manual work from the head of the research group. Also, the different entities managed in the static site like persons, publications and resources were not linked.&lt;/p&gt;
+
+&lt;h2 id=&#34;after:adaa33669cdee97fbc6b34506103429c&#34;&gt;After&lt;/h2&gt;
+
+&lt;p&gt;I modeled the reality of the group in ER Model with more than forty tables so every entity was linked to others. In this way, people could be assigned to projects, be an author of a publication or collaborate on research projects.
+Furthermore, the system can handle the upload of different types of documents and also assign categories to such resources.&lt;/p&gt;
+
+&lt;h2 id=&#34;technologies-involved:adaa33669cdee97fbc6b34506103429c&#34;&gt;Technologies involved&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;Javascript&lt;/li&gt;
+&lt;li&gt;JQuery&lt;/li&gt;
+&lt;li&gt;HTML5&lt;/li&gt;
+&lt;li&gt;CSS3&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Apache&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

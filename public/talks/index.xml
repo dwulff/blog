@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Hugo González Labrador</title>
+    <link>http://hugo.labkode.com/talks/</link>
+    <description>Recent content in Talks on Hugo González Labrador</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Hugo González Labrador</copyright>
+    <lastBuildDate>Fri, 21 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://hugo.labkode.com/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CERNBox</title>
+      <link>http://hugo.labkode.com/talks/cernbox-to-share-or-not-to-share/</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugo.labkode.com/talks/cernbox-to-share-or-not-to-share/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
